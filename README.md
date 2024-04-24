@@ -1,5 +1,4 @@
 
-https://github.com/hamzaali163/sneakers_app_flutter/assets/131654468/82b08e5c-753b-4626-a62e-870690d82746
 # ecommerce_app
 
 A new Flutter project.
