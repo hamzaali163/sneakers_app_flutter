@@ -1,0 +1,98 @@
+import 'package:flutter/material.dart';
+
+class ProductList {
+  List<Map<String, dynamic>> itemlist = [
+    {
+      'productId': '0',
+      'title': 'Best Seller',
+      'productname': 'Nike Jordan',
+      'productimage': const AssetImage('images/products/shoe1.png'),
+      'imagelink': 'images/products/shoe1.png',
+      'productprice': '350',
+      'unitprice': '350',
+    },
+    {
+      'productId': '1',
+      'title': 'Best Seller',
+      'productname': 'Nike Air Max',
+      'productimage': const AssetImage('images/products/shoe2.png'),
+      'imagelink': 'images/products/shoe2.png',
+      'productprice': '752',
+      'unitprice': '752',
+    },
+    {
+      'productId': '2',
+      'title': 'Best Seller',
+      'productname': 'Nike Air force',
+      'productimage': const AssetImage('images/products/shoe3.png'),
+      'imagelink': 'images/products/shoe3.png',
+      'productprice': '799',
+      'unitprice': '799',
+    },
+    {
+      'productId': '3',
+      'title': 'Best Seller',
+      'productname': 'Nike Blazer',
+      'productimage': const AssetImage('images/products/shoe4.png'),
+      'imagelink': 'images/products/shoe4.png',
+      'productprice': '350',
+      'unitprice': '350',
+    },
+    {
+      'productId': '4',
+      'title': 'Best Seller',
+      'productname': 'Nike Air Jordon 4',
+      'productimage': const AssetImage('images/products/shoe5.png'),
+      'imagelink': 'images/products/shoe5.png',
+      'productprice': '804',
+      'unitprice': '804',
+    },
+    {
+      'productId': '5',
+      'title': 'Best Seller',
+      'productname': 'Nike Air Waffle ',
+      'productimage': const AssetImage('images/products/shoe6.png'),
+      'imagelink': 'images/products/shoe6.png',
+      'productprice': '420',
+      'unitprice': '420',
+    },
+    {
+      'productId': '6',
+      'title': 'Best Seller',
+      'productname': 'Nike Air Jordan',
+      'productimage': const AssetImage('images/products/shoe7.png'),
+      'imagelink': 'images/products/shoe7.png',
+      'productprice': '210',
+      'unitprice': '210',
+    },
+    {
+      'productId': '7',
+      'title': 'Best Seller',
+      'productname': 'Nike Blazer Mid',
+      'productimage': const AssetImage('images/products/shoe8.png'),
+      'imagelink': 'images/products/shoe8.png',
+      'productprice': '304',
+      'unitprice': '304',
+    },
+    {
+      'productId': '8',
+      'title': 'Best Seller',
+      'productname': 'Nike Dunk Low',
+      'productimage': const AssetImage('images/products/shoe9.png'),
+      'imagelink': 'images/products/shoe9.png',
+      'productprice': '804',
+      'unitprice': '804',
+    },
+    {
+      'productId': '9',
+      'title': 'Best Seller',
+      'productname': 'Nike 804',
+      'productimage': const AssetImage('images/products/shoe10.png'),
+      'imagelink': 'images/products/shoe10.png',
+      'productprice': '820',
+      'unitprice': '820',
+    },
+  ];
+}
+
+// Update: $ sign was removed from productprice
